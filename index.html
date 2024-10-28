@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lamona Restaurant</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <a href="#" class="logo">LAMONA</a>
+            <nav>
+                <a href="#about">Sobre</a>
+                <a href="#menu">Menu</a>
+                <a href="#chef">Chef</a>
+                <a href="#gallery">Galeria</a>
+                <a href="#testimonials">Depoimentos</a>
+                <button id="reservationBtn">Reservas</button>
+            </nav>
+            <button id="menuToggle" class="menu-toggle">
+                <i data-lucide="menu"></i>
+            </button>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero" class="hero">
+            <div class="hero-content">
+                <h1>LAMONA</h1>
+                <p>Uma jornada pelos sabores autênticos do Brasil</p>
+                <button id="heroReservationBtn">Reservar Mesa</button>
+            </div>
+        </section>
+
+        <section id="about" class="about">
+            <div class="container">
+                <h2>Nossa História</h2>
+                <div class="about-content">
+                    <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Interior do Restaurante">
+                    <div class="about-text">
+                        <p>Fundado em 2015, o Lamona nasceu da paixão por apresentar a riqueza da culinária brasileira em um ambiente sofisticado e acolhedor. Nossa missão é proporcionar uma experiência gastronômica única, que celebra a diversidade de ingre dientes e técnicas culinárias de todas as regiões do Brasil.</p>
+                        <p>Cada prato em nosso menu conta uma história, trazendo à mesa não apenas sabores excepcionais, mas também a cultura e as tradições que fazem da cozinha brasileira uma das mais vibrantes do mundo.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="menu" class="menu">
+            <div class="container">
+                <h2>Menu Degustação</h2>
+                <div class="menu-content">
+                    <div class="menu-column">
+                        <h3>Terra</h3>
+                        <div class="menu-item">
+                            <img src="https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=713&q=80" alt="Coxinha de Galinha Caipira">
+                            <div>
+                                <h4>Coxinha de Galinha Caipira</h4>
+                                <p>Com emulsão de pequi</p>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <img src="https://images.unsplash.com/photo-1598511726623-d2e9996892f0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=765&q=80" alt="Moqueca de Banana da Terra">
+                            <div>
+                                <h4>Moqueca de Banana da Terra</h4>
+                                <p>Com palmito pupunha</p>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <img src="https://images.unsplash.com/photo-1615937691194-97dbd3f3dc29?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80" alt="Picadinho de Filé Mignon">
+                            <div>
+                                <h4>Picadinho de Filé Mignon</h4>
+                                <p>Com farofa de ovos e couve</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menu-column">
+                        <h3>Mar</h3>
+                        <div class="menu-item">
+                            <img src="https://images.unsplash.com/photo-1632767094170-2d2e8d51c5e6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80" alt="Ceviche de Peixe Branco">
+                            <div>
+                                <h4>Ceviche de Peixe Branco</h4>
+                                <p>Com leite de tigre de caju</p>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <img src="https://images.unsplash.com/photo-1626200419199-391ae4be7a41?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80" alt="Bobó de Camarão">
+                            <div>
+                                <h4>Bobó de Camarão</h4>
+                                <p>Com chips de mandioca</p>
+                            </div>
+                        </div>
+                        <div class="menu-item">
+                            <img src="https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Peixe do Dia">
+                            <div>
+                                <h4>Peixe do Dia</h4>
+                                <p>Em crosta de castanha do Pará</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="chef" class="chef">
+            <div class="container">
+                <h2>Nossa Chef</h2>
+                <div class="chef-content">
+                    <img src="https://images.unsplash.com/photo-1577219491135-ce391730fb2c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=677&q=80" alt="Chef Ana Silva">
+                    <div class="chef-text">
+                        <h3>Wagner Alencar</h3>
+                        <p>Com mais de 20 anos de experiência na gastronomia brasileira, o Chef Wagner Alencar traz para o Lamona sua paixão pela culinária regional e seu talento em reinterpretar pratos tradicionais de maneira contemporânea.</p>
+                        <p>Formado pela renomada escola Le Cordon Bleu e com passagens por alguns dos melhores restaurantes do país, Wagner combina técnicas clássicas com ingredientes nativos, criando uma experiência gastronômica única que celebra a riqueza e a diversidade da cozinha brasileira.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="gallery" class="gallery">
+            <div class="container">
+                <h2>Galeria</h2>
+                <div class="gallery-content">
+                    <img id="galleryImage" src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Galeria">
+                    <button id="prevPhoto" class="gallery-nav"><i data-lucide="chevron-left"></i></button>
+                    <button id="nextPhoto" class="gallery-nav"><i data-lucide="chevron-right"></i></button>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials" class="testimonials">
+            <div class="container">
+                <h2>O Que Nossos Clientes Dizem</h2>
+                <div class="testimonials-content">
+                    <!-- Testimonials will be dynamically added here -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <h3>LAMONA</h3>
+                    <p>Rua das Acácias, 123 - Jardins</p>
+                    <p>São Paulo - SP</p>
+                </div>
+                <div class="footer-hours">
+                    <p>Horário de Funcionamento:</p>
+                    <p>Terça a Sábado: 19h às 23h</p>
+                    <p>Domingo: 12h às 16h</p>
+                    <button id="footerReservationBtn">Reservar Mesa</button>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div id="reservationModal" class="modal">
+        <div class="modal-content">
+            <h2>Faça sua Reserva</h2>
+            <form id="reservationForm">
+                <div class="form-group">
+                    <label for="name">Nome</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Telefone</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+                <div class="form-group">
+                    <label for="date">Data</label>
+                    <input type="date" id="date" name="date" required>
+                </div>
+                <div class="form-group">
+                    <label for="time">Horário</label>
+                    <select id="time" name="time" required>
+                        <option value="">Selecione um horário</option>
+                        <option value="19:00">19:00</option>
+                        <option value="19:30">19:30</option>
+                        <option value="20:00">20:00</option>
+                        <option value="20:30">20:30</option>
+                        <option value="21:00">21:00</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="guests">Número de Pessoas</label>
+                    <input type="number" id="guests" name="guests" min="1" max="10" required>
+                </div>
+                <div class="form-actions">
+                    <button type="button" id="cancelReservation">Cancelar</button>
+                    <button type="submit">Confirmar Reserva</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
